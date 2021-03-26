@@ -73,5 +73,5 @@ clean: $(addprefix clean-, $(STDLIBS_EXT)) $(CLEAN_TARGETS)
 distclean: $(addprefix distclean-, $(STDLIBS_EXT)) clean
 checksumall: $(addprefix checksum-, $(STDLIBS_EXT))
 
-DEP_LIBS_STAGED := $(STDLIBS_EXT)
+DEP_LIBS_STAGED_ALL := $(STDLIBS_EXT)
 include $(JULIAHOME)/deps/tools/uninstallers.mk
